@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- title name  -->
+    <title>Light</title>
+</head>
+<body>
+    <header>
+            <div class="navbar">
+                <div class="menu-team">
+                    <img src="img/menu.png" alt="#" class="menu">
+                    <img src="img/logo.png" alt="#" class="logo">
+                </div>
+                <div class="menu-item">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Post</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <button class="btn-on" onclick="toggleBtn()" id="btn" ><span></span></button>
+                </div>
+            </div>
+            <div class="main-control">
+                <div class="lamp-control">
+                    <img src="img/lamp.png" alt="#" class="lamp">
+                    <img src="img/light.png" alt="#" class="light" id="light">
+                </div>
+                <div class="text-control">
+                    <h1>Brand of company</h1>
+                    <p class="company">
+                        The flash/strobe unit, whether it is built-in to your camera or an add-on "hotshoe" model, will finally be something you, not the camera, controls!  You will prove to yourself that those former mysteries of Controlled Continuous and Strobe lighting will no longer be mysterious, 
+                    </p>
+                    <button class="check">Check All Light</button>
+                    <div class="line-hd">
+                        <p class="number">04</p>
+                        <div class="line"><span></span> </div>
+                        <p class="number2">05</p>
+                    </div>
+                </div>              
+            </div>          
+    </header>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+        function toggleBtn() {
+            btn.classList.toggle("active")
+            light.classList.toggle("on")
+        }
+    </script>
+</body>
+</html>

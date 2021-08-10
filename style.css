@@ -1,0 +1,148 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+ }
+ header {
+     background-color: black;
+     height: 100vh;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 95%;
+    margin: auto;
+ }
+ .menu {
+    width: 4rem;
+    height: 3rem;
+}
+.logo {
+    width: 12rem;
+    height: 2rem;
+}
+.menu-item {
+    display: flex;
+}
+ .menu-item ul {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+ }
+ .menu-item li {
+    list-style: none;
+    margin: 0rem 2rem;
+ }
+ .menu-item li a  {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+ }
+ .btn-on {
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn-on span {
+    display: block;
+   width: 26px;
+   height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.main-control {
+    display: flex;
+}
+.lamp {
+    margin: -25px;
+    padding-left: 38%;
+    margin-top: -12rem;
+}
+.light {
+    opacity: 0;
+    transition: 0.5s;
+}
+.text-control {
+    padding-top: 12%;
+}
+h1 {
+    padding: 1rem 0rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+.company {
+    width: 73%;
+    line-height: 2rem;
+    color: #fff;
+}
+.check {
+    padding: 1rem 4rem;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #007963;
+    border: none;
+}
+.line-hd {
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+}
+.number {
+    color: #FFF;
+}
+.line {
+    width: 25rem;
+    height: 0.5rem;
+    background-color: #fff;
+    margin: 0rem 1rem;
+    border-radius: 2px;
+}
+.line span {
+    width: 70%;
+    height: 0.7rem;
+    margin-top: -2px;
+    border-radius: 4px;
+    background-color: #007963;
+    display: block;
+}
+.number2 {
+    color: #FFF;
+    font-size: 2rem;
+}
+.number {
+    font-size: 2rem;
+}
+.active {
+    background-color: blue;
+}
+.active span {
+    background-color: #fff;
+    margin-left: 31px;
+}
+.on {
+    opacity: 1;
+}
+.lamp-control {
+    width: 100%;
+    height: 15rem;
+}
+/* End Css  */
+/* Start Media Query and Dull responsive Webpage site  */
